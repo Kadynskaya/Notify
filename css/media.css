@@ -1,0 +1,48 @@
+/* header */
+
+@media(max-width:620px) {
+    .notify__right-wrapper {
+        display: none;
+    }
+    .notify__left-wrapper {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 2rem;
+        padding: 0;
+    }
+}
+
+
+/* offers */
+
+@media(max-width: 911px) {
+    .offer__item:last-child {
+        margin-top: 3rem;
+    }
+
+}
+@media(max-width: 607px) {
+    .offer__item:not(:first-child) {
+        margin-top: 3rem;
+    }
+
+}
+
+
+/* inform */
+
+@media(max-width: 1090px) {
+    .inform-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inform__left-wrapper {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .inform__right-wrapper {
+        max-width: 100%;
+    }
+}
